@@ -1,0 +1,146 @@
+/* Base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Handwriting', cursive;
+    background: url(https://i.postimg.cc/TPytZFQm/23-mai-2025-09-49-21.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Navigation */
+.nav-page {
+    background-size: cover;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #6a4e42;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Propriétés du main de ma page A propos */
+.about-content {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    margin: 1rem;
+    border: 4px solid #f2b5a3;
+    border-radius: 8px;
+}
+
+/* Propriétés de la photo de ma boutique et de mon équipe */
+img.photoequipe-magasin {
+    align-items: center;
+    max-width: 100%;
+    height: 75vh;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+}
+
+/* Propriétés du texte lié à ma boutique */
+p.text-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #f2b5a3;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #6a4e42;
+}
+
+/* Footer */
+div.footer {
+    opacity: 0.5;
+    text-align: center;
+}
+
+footer {
+    background-color: #f4d3b2;
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+    color: #6a4e42;
+    margin-top: 3rem;
+}
+
+/* -----------------------
+   Responsive Media Queries
+-------------------------- */
+
+/* Tablette */
+@media (max-width: 1024px) {
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-page ul li a {
+        font-size: 1rem;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    p.text-content {
+        font-size: 1rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .nav-page ul li a {
+        font-size: 1.5rem;
+    }
+
+    p.text-content {
+        font-size: 20px;
+    }
+}
+
+/* Très petit écran */
+@media (max-width: 425px) {
+
+    .nav-page ul li a {
+        font-size: 1rem;
+    }
+
+    .about-content {
+        align-items: center;
+    }
+
+    p.text-content {
+        font-size: 1rem;
+    }
+
+    img.photoequipe-magasin{
+        max-width: 100%;
+        height: 40vh;
+    }
+}

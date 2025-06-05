@@ -1,0 +1,342 @@
+/* Base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Handwriting', cursive;
+    background: url(https://i.postimg.cc/TPytZFQm/23-mai-2025-09-49-21.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Navigation */
+.nav-page {
+    background-size: cover;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.nav-page ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-page li a {
+    text-decoration: none;
+    color: #6a4e42;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+/* Propriétés de la phrase d'accroche */
+.catchphrase-content {
+    font-size: 30px;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    color: #6a4e42;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+
+}
+
+/* Propriétés de la galerie */
+.galerie-content {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: space-between;
+    border-radius: 50px;
+    border: 4px solid #f2b5a3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Propriétés Bouquet des bouquets */
+img.bouquetroselys,
+img.bouquetpivoine,
+img.bouquettulipe,
+img.compositionmoderne,
+img.bouquetmariée {
+    max-width: 100%;
+    height: 32vh;
+    border-radius: 50px;
+}
+
+/* Propriétés des decriptifs des bouquets */
+.flowerdetail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+    border: 4px solid #f2b5a3;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+
+}
+
+/* Propriétés des prix des bouquets */
+.flowerprice {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.price p {
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+/* Propriétés de l'en-tête avis clients */
+.en-têteavis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    width: 100%;
+    border-radius: 25px;
+    font-size: 35px;
+}
+
+p.avis {
+    border-radius: 5px;
+    color: #6a4e42;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+}
+
+/* Propriétés des avis clients */
+.avisclients {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Propriétés de la FAQ */
+.faq {
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 100%;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+p.faq-catchphrase {
+    border: 1px solid black;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+ul.faq-content {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+ul.faq-content li a {
+    color: #6a4e42;
+    text-decoration: none;
+}
+
+/* Footer */
+div.footer {
+    opacity: 0.5;
+    text-align: center;
+}
+
+footer {
+    background-color: #f4d3b2;
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+    color: #6a4e42;
+    margin-top: 3rem;
+}
+
+/* -----------------------
+   Responsive Media Queries
+-------------------------- */
+
+/* Tablette */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .nav-page ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-page ul li a {
+        font-size: 1.5rem;
+    }
+
+    .catchphrase-content {
+        font-size: 1.5rem;
+    }
+
+    img.bouquetroselys,
+    img.bouquetpivoine,
+    img.bouquettulipe,
+    img.compositionmoderne,
+    img.bouquetmariée {
+        width: 170px;
+        height: 25vh;
+        margin: 5px;
+    }
+
+    .price {
+        font-size: 1rem;
+    }
+
+    .avis-clients {
+        font-size: 1rem;
+    }
+
+    .faq-content {
+        font-size: 1.5rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .nav-page ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-page ul li a {
+        font-size: 1rem;
+    }
+
+    .catchphrase-content {
+        font-size: 1rem;
+    }
+
+    img.bouquetroselys,
+    img.bouquetpivoine,
+    img.bouquettulipe,
+    img.compositionmoderne,
+    img.bouquetmariée {
+        width: 110px;
+        height: 25vh;
+        margin: 2px;
+    }
+
+    p {
+        padding: 1rem;
+    }
+
+    .flowerdetail {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .price {
+        font-size: 1rem;
+    }
+
+    .avis {
+        font-size: 2rem;
+    }
+
+    .avis-clients {
+        font-size: 0.8rem;
+    }
+
+    .faq-catchphrase {
+        font-size: 1.5rem;
+    }
+
+    .faq-content {
+        font-size: 1rem;
+    }
+}
+
+/* Très petit écran */
+@media (max-width: 426px) {
+    .nav-page ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-page ul li a {
+        font-size: 1rem;
+    }
+
+    .catchphrase-content {
+        font-size: 1rem;
+    }
+
+    .avis {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .avis-clients {
+        font-size: 0.8rem;
+    }
+
+    .faq-catchphrase {
+        font-size: 1rem;
+    }
+
+    .faq-content {
+        margin-right: 2rem;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .galerie-content {
+        margin: 0.2rem;
+    }
+
+    img.bouquetroselys,
+    img.bouquetpivoine,
+    img.bouquettulipe,
+    img.compositionmoderne,
+    img.bouquetmariée {
+        margin: 1px;
+        height: 18vh;
+        width: 13vh;
+    }
+
+    .price {
+        font-size: 0.8rem;
+    }
+
+    .flowerdetail {
+        margin: 0.2rem;
+    }
+
+    .details {
+        font-size: 0.7rem;
+    }
+}

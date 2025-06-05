@@ -1,0 +1,255 @@
+/* Base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Handwriting', cursive;
+    background: url(https://i.postimg.cc/TPytZFQm/23-mai-2025-09-49-21.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Header */
+.header {
+    display: flex;
+    background-size: cover;
+    padding: 2rem;
+}
+
+/* Socials */
+.socials-media {
+    display: flex;
+}
+
+img.logoinstagram,
+img.logofacebook,
+img.logolinkedin {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.imagesocials-content{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+ul.socials  {
+    color: #6a4e42;
+    list-style: none;
+    padding: 0.5rem;
+    font-size: 23px;
+}
+
+
+/* Logo et catchphrase */
+div.logosocials-content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin: 2rem;
+}
+
+.logotitle-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 4px solid #f2b5a3;
+    border-radius: 8px;
+}
+
+h1.title {
+    height: auto;
+    color: #6a4e42;
+    font-size: 40px;
+    margin: 5rem;
+}
+
+img.logo-content {
+    max-width: 100%;
+}
+
+/* Barre de navigation */
+.nav-page {
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.nav-page ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-page li a {
+    text-decoration: none;
+    color: #6a4e42;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Photo et texte de présentation de la boutique */
+div.phototexte-content {
+    display: flex;
+    background-size: cover;
+    margin: 1rem;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    border: 4px solid #f2b5a3;
+}
+
+img.photostore-content {
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+
+p.paragraphestore-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Funnel Sans' sans-serif;
+    color: #6a4e42;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    border: 4px solid #f2b5a3;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+/* Footer */
+
+div.footer {
+    opacity: 0.5;
+    text-align: center;
+}
+
+footer {
+    background-color: #f4d3b2;
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+    color: #6a4e42;
+    margin-top: 3rem;
+}
+
+/* -----------------------
+   Responsive Media Queries
+-------------------------- */
+
+/* Tablette */
+@media (max-width: 1024px) {
+    h1.title {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .header{
+        flex-direction: column;
+    }
+
+    .nav-page ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-page ul li a {
+        font-size: 1.5rem;
+    }
+
+    div.phototexte-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p.paragraphestore-content {
+        font-size: 1rem;
+        align-items: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .header{
+        border: 2px solid black;
+        flex-direction: column;
+    }
+
+    h1.title {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .socials-media img {
+        height: 5vh;
+        width: 5vh;
+    }
+
+    .socials li {
+        font-size: 1rem;
+    }
+
+    .nav-page ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.phototexte-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p.paragraphestore-content {
+        align-items: center;
+        font-size: 0.8rem;
+    }
+
+    img.photostore-content {
+        max-height: 50vh;
+        max-width: 100%;
+    }
+}
+
+/* Très petit écran */
+ @media (max-width: 426px) {
+
+    .header{
+        flex-direction: column;
+    }
+
+    .navpage-content {
+        align-items: center;
+    }
+    .nav-page ul {
+        align-items: center;
+    }
+
+    div.phototexte-content {
+        align-items: center;
+    }
+
+    img.photostore-content{
+        width: 800px;
+    }
+}
