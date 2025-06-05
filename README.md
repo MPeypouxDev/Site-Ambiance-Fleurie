@@ -1,7 +1,3 @@
-Bien sûr ! Voici un exemple de joli README au format Markdown pour ton site vitrine de fleuriste, en HTML et CSS, dans le cadre de ta formation. N’hésite pas à me dire si tu veux l’adapter un peu plus ! 😊
-
----
-
 ````markdown
 # 🌸 Site Vitrine de Fleuriste
 
