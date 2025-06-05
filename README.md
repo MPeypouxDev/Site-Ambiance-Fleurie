@@ -1,48 +1,53 @@
 ````markdown
-# 🌸 Site Vitrine de Fleuriste
 
-Bienvenue sur le dépôt du site vitrine pour un fleuriste, développé dans le cadre de ma formation. Ce projet a pour but de mettre en pratique mes compétences en **HTML** et **CSS**, tout en créant une expérience utilisateur agréable et esthétique.
 
-## ✨ Présentation
+
+#  "Ambiance Fleurie" Site vitrine pour un fleuriste
+
+Bienvenue sur le dépôt du site vitrine pour un fleuriste, developpé dans le cadre de ma formation. Ce projet a pour but de mettre en pratique mes compétences en **HTML** et **CSS**, tout en créant une expérience utilisateur agréable et esthétique.
+
+## Présentation
 
 Ce site vitrine permet de :
+-Présenter l'activité de la boutique et du fleuriste
+-Mettre en valeur les créations florales à travers une galerie de photos
+-Mettre en valeur les services annexes proposés par mon fleuriste
+-Donner des informations à propos de ma boutique tel que : 
+-Informations de contact
+-Horaires d'ouverture
+-Localisation de ma boutique
 
-- Présenter l’activité du fleuriste
-- Mettre en valeur les créations florales à travers une galerie de photos
-- Donner des informations de contact et les horaires d’ouverture
-
-## 🛠️ Technologies Utilisées
+## Technologies utilisées
 
 - **HTML5** : structure des pages web
-- **CSS3** : mise en forme et design responsive
+-**CSS** : mise en forme design et responsive
 
-## 📁 Arborescence du projet
+## Arborescence du projet
 
-```plaintext
-.
 ├── index.html
-├── style.css
+├── about.html
+├── services.html
+├── galerie.html
+├── contact.html
+├── faq.html
 ├── styles/
+│   ├── homepage.css
+│   ├── style-about.css
+│   ├── services.css
+│   ├── style-galerie.css
+│   ├── style-contact.css
 │   ├── faq.css
-│   ├── bouquet2.jpg
-│   └── ...
 └── README.md
-````
 
-## 🔍 Fonctionnalités principales
+## Fonctionnalités principales
 
-* Page d’accueil élégante avec une présentation du fleuriste
-* Galerie de photos pour montrer les bouquets et compositions florales
-* Section « À propos » pour décrire le fleuriste et son histoire
-* Section « Contact » avec formulaire de contact et plan d’accès
+* Page d'accueil élégante avec une présentation du fleuriste (Photo de la boutique, ainsi qu'un paragraphe )
+* Section "A propos" pour décrire le fleuriste, sa boutique et son histoire
+* Section "Nos services" pour décrire les services annexes à la vente de fleurs et fidéliser sa clientèle
+* Section "Galerie" pour montrer les bouquets et les compositions florales proposés dans la boutique
+* Section "Contact" avec un formulaire de contact et plan d'accès
 
-## 💡 Objectifs pédagogiques
-
-✅ Structurer un site web vitrine avec HTML
-✅ Styliser un site web en utilisant CSS et des techniques de responsive design
-✅ Comprendre l’importance de l’UX/UI pour un commerce local
-
-## 🚀 Pour commencer
+##  Pour commencer
 
 1. Clonez le projet :
 
@@ -51,7 +56,7 @@ Ce site vitrine permet de :
    ```
 2. Ouvrez `index.html` dans votre navigateur préféré pour voir le site.
 
-## 🙌 Remerciements
+##  Remerciements
 
 Merci à mon formateur et à mes camarades de formation pour leurs précieux conseils et leur soutien pendant le développement de ce projet.
 
